@@ -26,7 +26,6 @@ namespace AtividadeApp
         private void btnCalc_Click(object sender, EventArgs e)
         {
             double nota1, nota2, nota3, media;
-
             nota1 = Convert.ToDouble(txtNota1.Text);
             nota2 = Convert.ToDouble(txtNota2.Text);
             nota3 = Convert.ToDouble(txtNota3.Text);
