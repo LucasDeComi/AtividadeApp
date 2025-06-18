@@ -57,18 +57,18 @@ namespace AtividadeApp
             ex5.Show();
         }
 
-      
-
-        private void frmMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void mstiEx6_Click(object sender, EventArgs e)
         {
             frmEx6 ex6 = new frmEx6();
             Hide();
             ex6.Show();
+        }
+
+        private void mstiEx7_Click(object sender, EventArgs e)
+        {
+            frmEx7 ex7 = new frmEx7();
+            Hide();
+            ex7.Show();
         }
     }
 }
