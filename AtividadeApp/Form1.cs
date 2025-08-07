@@ -77,5 +77,12 @@ namespace AtividadeApp
             Hide();
             ex2.Show();
         }
+
+        private void msti3BimEx3_Click(object sender, EventArgs e)
+        {
+            frm3BimEx3 ex3 = new frm3BimEx3();
+            Hide();
+            ex3.Show();
+        }
     }
 }
