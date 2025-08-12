@@ -53,6 +53,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3BimEx1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3BimEx1.Designer.cs">
+      <DependentUpon>3BimEx1.cs</DependentUpon>
+    </Compile>
     <Compile Include="3BimEx2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="3BimEx1.resx">
+      <DependentUpon>3BimEx1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="3BimEx2.resx">
       <DependentUpon>3BimEx2.cs</DependentUpon>
     </EmbeddedResource>

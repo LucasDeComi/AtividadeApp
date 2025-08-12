@@ -142,6 +142,7 @@
             this.msti3BimEx1.Name = "msti3BimEx1";
             this.msti3BimEx1.Size = new System.Drawing.Size(224, 26);
             this.msti3BimEx1.Text = "Exercício 1";
+            this.msti3BimEx1.Click += new System.EventHandler(this.msti3BimEx1_Click);
             // 
             // msti3BimEx2
             // 
@@ -219,7 +220,7 @@
             this.Controls.Add(this.lblLucas);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.menuStrip1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "                      ";
