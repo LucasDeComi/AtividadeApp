@@ -26,27 +26,28 @@ namespace AtividadeApp
             geral = publico * 0.5;
             arquibancada = publico * 0.3;
             cadeira = publico * 0.1;
+            rdp = 0;
+            rdg = 0;
+            rda = 0;
+            rdc = 0;
             rendaTotal = 0;
             if (popular > 0)
             {
                 rdp = popular * 5;
-                rendaTotal += rdp;
             }
             if (geral > 0)
             {
                 rdg = geral * 10;
-                rendaTotal += rdg;
             }
             if (arquibancada > 0)
             {
                 rda = arquibancada * 20;
-                rendaTotal += rda;
             }
             if (cadeira > 0)
             {
                 rdc = cadeira * 30;
-                rendaTotal += rdc;
             }
+            rendaTotal = rdp + rdg + rda + rdc;
             txtRenda.Text = rendaTotal.ToString();
         }
 
