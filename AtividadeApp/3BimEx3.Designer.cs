@@ -46,26 +46,29 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(359, 50);
+            this.txtNome.Location = new System.Drawing.Point(269, 41);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(538, 34);
+            this.txtNome.Size = new System.Drawing.Size(404, 28);
             this.txtNome.TabIndex = 0;
             // 
             // txtIdade
             // 
             this.txtIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdade.Location = new System.Drawing.Point(359, 105);
+            this.txtIdade.Location = new System.Drawing.Point(269, 85);
+            this.txtIdade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtIdade.Name = "txtIdade";
-            this.txtIdade.Size = new System.Drawing.Size(538, 34);
+            this.txtIdade.Size = new System.Drawing.Size(404, 28);
             this.txtIdade.TabIndex = 1;
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(94, 53);
+            this.lblNome.Location = new System.Drawing.Point(70, 43);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(83, 29);
+            this.lblNome.Size = new System.Drawing.Size(66, 24);
             this.lblNome.TabIndex = 2;
             this.lblNome.Text = "Nome";
             // 
@@ -73,18 +76,20 @@
             // 
             this.lblIdade.AutoSize = true;
             this.lblIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdade.Location = new System.Drawing.Point(94, 108);
+            this.lblIdade.Location = new System.Drawing.Point(70, 88);
+            this.lblIdade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblIdade.Name = "lblIdade";
-            this.lblIdade.Size = new System.Drawing.Size(79, 29);
+            this.lblIdade.Size = new System.Drawing.Size(62, 24);
             this.lblIdade.TabIndex = 3;
             this.lblIdade.Text = "Idade";
             // 
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(110, 366);
+            this.btnCalcular.Location = new System.Drawing.Point(82, 297);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(139, 38);
+            this.btnCalcular.Size = new System.Drawing.Size(104, 31);
             this.btnCalcular.TabIndex = 4;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -93,9 +98,10 @@
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(408, 366);
+            this.btnLimpar.Location = new System.Drawing.Point(306, 297);
+            this.btnLimpar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(139, 38);
+            this.btnLimpar.Size = new System.Drawing.Size(104, 31);
             this.btnLimpar.TabIndex = 5;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
@@ -104,9 +110,10 @@
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(712, 366);
+            this.btnVoltar.Location = new System.Drawing.Point(534, 297);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(139, 38);
+            this.btnVoltar.Size = new System.Drawing.Size(104, 31);
             this.btnVoltar.TabIndex = 6;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
@@ -116,9 +123,10 @@
             // 
             this.lblSalario.AutoSize = true;
             this.lblSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalario.Location = new System.Drawing.Point(94, 216);
+            this.lblSalario.Location = new System.Drawing.Point(70, 176);
+            this.lblSalario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSalario.Name = "lblSalario";
-            this.lblSalario.Size = new System.Drawing.Size(170, 29);
+            this.lblSalario.Size = new System.Drawing.Size(132, 24);
             this.lblSalario.TabIndex = 10;
             this.lblSalario.Text = "Salário (BRL)";
             // 
@@ -126,35 +134,39 @@
             // 
             this.lblSexo.AutoSize = true;
             this.lblSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSexo.Location = new System.Drawing.Point(94, 161);
+            this.lblSexo.Location = new System.Drawing.Point(70, 131);
+            this.lblSexo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSexo.Name = "lblSexo";
-            this.lblSexo.Size = new System.Drawing.Size(142, 29);
+            this.lblSexo.Size = new System.Drawing.Size(114, 24);
             this.lblSexo.TabIndex = 9;
             this.lblSexo.Text = "Sexo (M/F)";
             // 
             // txtSalario
             // 
             this.txtSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalario.Location = new System.Drawing.Point(359, 213);
+            this.txtSalario.Location = new System.Drawing.Point(269, 173);
+            this.txtSalario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSalario.Name = "txtSalario";
-            this.txtSalario.Size = new System.Drawing.Size(538, 34);
+            this.txtSalario.Size = new System.Drawing.Size(404, 28);
             this.txtSalario.TabIndex = 8;
             // 
             // txtSexo
             // 
             this.txtSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSexo.Location = new System.Drawing.Point(359, 158);
+            this.txtSexo.Location = new System.Drawing.Point(269, 128);
+            this.txtSexo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSexo.Name = "txtSexo";
-            this.txtSexo.Size = new System.Drawing.Size(538, 34);
+            this.txtSexo.Size = new System.Drawing.Size(404, 28);
             this.txtSexo.TabIndex = 7;
             // 
             // lblRenda
             // 
             this.lblRenda.AutoSize = true;
             this.lblRenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRenda.Location = new System.Drawing.Point(94, 272);
+            this.lblRenda.Location = new System.Drawing.Point(70, 221);
+            this.lblRenda.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRenda.Name = "lblRenda";
-            this.lblRenda.Size = new System.Drawing.Size(230, 29);
+            this.lblRenda.Size = new System.Drawing.Size(181, 24);
             this.lblRenda.TabIndex = 12;
             this.lblRenda.Text = "Renda Total (BRL)";
             // 
@@ -162,16 +174,17 @@
             // 
             this.txtRenda.Enabled = false;
             this.txtRenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRenda.Location = new System.Drawing.Point(359, 269);
+            this.txtRenda.Location = new System.Drawing.Point(269, 219);
+            this.txtRenda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtRenda.Name = "txtRenda";
-            this.txtRenda.Size = new System.Drawing.Size(538, 34);
+            this.txtRenda.Size = new System.Drawing.Size(404, 28);
             this.txtRenda.TabIndex = 11;
             // 
             // frm3BimEx3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(933, 450);
+            this.ClientSize = new System.Drawing.Size(700, 366);
             this.ControlBox = false;
             this.Controls.Add(this.lblRenda);
             this.Controls.Add(this.txtRenda);
@@ -186,7 +199,9 @@
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.txtIdade);
             this.Controls.Add(this.txtNome);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frm3BimEx3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercício 3";
             this.ResumeLayout(false);
             this.PerformLayout();

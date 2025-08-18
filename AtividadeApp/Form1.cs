@@ -71,6 +71,13 @@ namespace AtividadeApp
             ex7.Show();
         }
 
+        private void msti3BimEx1_Click(object sender, EventArgs e)
+        {
+            frm3BimEx1 ex1 = new frm3BimEx1();
+            Hide();
+            ex1.Show();
+        }
+
         private void msti3BimEx2_Click(object sender, EventArgs e)
         {
             frm3BimEx2 ex2 = new frm3BimEx2();
@@ -85,11 +92,11 @@ namespace AtividadeApp
             ex3.Show();
         }
 
-        private void msti3BimEx1_Click(object sender, EventArgs e)
+        private void msti3BimEx4_Click(object sender, EventArgs e)
         {
-            frm3BimEx1 ex1 = new frm3BimEx1();
+            frm3BimEx4 ex4 = new frm3BimEx4();
             Hide();
-            ex1.Show();
+            ex4.Show();
         }
     }
 }

@@ -71,6 +71,12 @@
     <Compile Include="3BimEx3.Designer.cs">
       <DependentUpon>3BimEx3.cs</DependentUpon>
     </Compile>
+    <Compile Include="3BimEx4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3BimEx4.Designer.cs">
+      <DependentUpon>3BimEx4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ex1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="3BimEx3.resx">
       <DependentUpon>3BimEx3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3BimEx4.resx">
+      <DependentUpon>3BimEx4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ex1.resx">
       <DependentUpon>Ex1.cs</DependentUpon>
