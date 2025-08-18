@@ -41,12 +41,13 @@
             this.msti3BimEx1 = new System.Windows.Forms.ToolStripMenuItem();
             this.msti3BimEx2 = new System.Windows.Forms.ToolStripMenuItem();
             this.msti3BimEx3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.msti3BimEx4 = new System.Windows.Forms.ToolStripMenuItem();
             this.mstiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblLucas = new System.Windows.Forms.Label();
             this.lblPedro = new System.Windows.Forms.Label();
             this.lblLevi = new System.Windows.Forms.Label();
-            this.msti3BimEx4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.msti3BimEx5 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,7 +135,8 @@
             this.msti3BimEx1,
             this.msti3BimEx2,
             this.msti3BimEx3,
-            this.msti3BimEx4});
+            this.msti3BimEx4,
+            this.msti3BimEx5});
             this.oBimestreToolStripMenuItem.Name = "oBimestreToolStripMenuItem";
             this.oBimestreToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.oBimestreToolStripMenuItem.Text = "3o Bimestre";
@@ -159,6 +161,13 @@
             this.msti3BimEx3.Size = new System.Drawing.Size(180, 22);
             this.msti3BimEx3.Text = "Exercício 3";
             this.msti3BimEx3.Click += new System.EventHandler(this.msti3BimEx3_Click);
+            // 
+            // msti3BimEx4
+            // 
+            this.msti3BimEx4.Name = "msti3BimEx4";
+            this.msti3BimEx4.Size = new System.Drawing.Size(180, 22);
+            this.msti3BimEx4.Text = "Exercício 4";
+            this.msti3BimEx4.Click += new System.EventHandler(this.msti3BimEx4_Click);
             // 
             // mstiSair
             // 
@@ -207,12 +216,12 @@
             this.lblLevi.TabIndex = 4;
             this.lblLevi.Text = "Levi Moreira da Silveira";
             // 
-            // msti3BimEx4
+            // msti3BimEx5
             // 
-            this.msti3BimEx4.Name = "msti3BimEx4";
-            this.msti3BimEx4.Size = new System.Drawing.Size(180, 22);
-            this.msti3BimEx4.Text = "Exercício 4";
-            this.msti3BimEx4.Click += new System.EventHandler(this.msti3BimEx4_Click);
+            this.msti3BimEx5.Name = "msti3BimEx5";
+            this.msti3BimEx5.Size = new System.Drawing.Size(180, 22);
+            this.msti3BimEx5.Text = "Exercício 5";
+            this.msti3BimEx5.Click += new System.EventHandler(this.msti3BimEx5_Click);
             // 
             // frmMenu
             // 
@@ -256,6 +265,7 @@
         private System.Windows.Forms.ToolStripMenuItem msti3BimEx3;
         private System.Windows.Forms.Label lblLevi;
         private System.Windows.Forms.ToolStripMenuItem msti3BimEx4;
+        private System.Windows.Forms.ToolStripMenuItem msti3BimEx5;
     }
 }
 
