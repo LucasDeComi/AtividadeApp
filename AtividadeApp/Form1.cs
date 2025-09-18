@@ -105,5 +105,19 @@ namespace AtividadeApp
             Hide();
             ex5.Show();
         }
+
+        private void mstiProva1_Click(object sender, EventArgs e)
+        {
+            frm3BimProva1 prova1 = new frm3BimProva1();
+            Hide();
+            prova1.Show();
+        }
+
+        private void mstiProva2_Click(object sender, EventArgs e)
+        {
+            frm3BimProva2 prova2 = new frm3BimProva2();
+            Hide();
+            prova2.Show();
+        }
     }
 }
