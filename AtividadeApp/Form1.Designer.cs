@@ -47,6 +47,8 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblLucas = new System.Windows.Forms.Label();
             this.lblLevi = new System.Windows.Forms.Label();
+            this.mstiProva1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mstiProva2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,7 +137,9 @@
             this.msti3BimEx2,
             this.msti3BimEx3,
             this.msti3BimEx4,
-            this.msti3BimEx5});
+            this.msti3BimEx5,
+            this.mstiProva1,
+            this.mstiProva2});
             this.oBimestreToolStripMenuItem.Name = "oBimestreToolStripMenuItem";
             this.oBimestreToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.oBimestreToolStripMenuItem.Text = "3o Bimestre";
@@ -143,35 +147,35 @@
             // msti3BimEx1
             // 
             this.msti3BimEx1.Name = "msti3BimEx1";
-            this.msti3BimEx1.Size = new System.Drawing.Size(134, 22);
+            this.msti3BimEx1.Size = new System.Drawing.Size(180, 22);
             this.msti3BimEx1.Text = "Exercício 1";
             this.msti3BimEx1.Click += new System.EventHandler(this.msti3BimEx1_Click);
             // 
             // msti3BimEx2
             // 
             this.msti3BimEx2.Name = "msti3BimEx2";
-            this.msti3BimEx2.Size = new System.Drawing.Size(134, 22);
+            this.msti3BimEx2.Size = new System.Drawing.Size(180, 22);
             this.msti3BimEx2.Text = "Exercício 2";
             this.msti3BimEx2.Click += new System.EventHandler(this.msti3BimEx2_Click);
             // 
             // msti3BimEx3
             // 
             this.msti3BimEx3.Name = "msti3BimEx3";
-            this.msti3BimEx3.Size = new System.Drawing.Size(134, 22);
+            this.msti3BimEx3.Size = new System.Drawing.Size(180, 22);
             this.msti3BimEx3.Text = "Exercício 3";
             this.msti3BimEx3.Click += new System.EventHandler(this.msti3BimEx3_Click);
             // 
             // msti3BimEx4
             // 
             this.msti3BimEx4.Name = "msti3BimEx4";
-            this.msti3BimEx4.Size = new System.Drawing.Size(134, 22);
+            this.msti3BimEx4.Size = new System.Drawing.Size(180, 22);
             this.msti3BimEx4.Text = "Exercício 4";
             this.msti3BimEx4.Click += new System.EventHandler(this.msti3BimEx4_Click);
             // 
             // msti3BimEx5
             // 
             this.msti3BimEx5.Name = "msti3BimEx5";
-            this.msti3BimEx5.Size = new System.Drawing.Size(134, 22);
+            this.msti3BimEx5.Size = new System.Drawing.Size(180, 22);
             this.msti3BimEx5.Text = "Exercício 5";
             this.msti3BimEx5.Click += new System.EventHandler(this.msti3BimEx5_Click);
             // 
@@ -211,6 +215,20 @@
             this.lblLevi.Size = new System.Drawing.Size(194, 20);
             this.lblLevi.TabIndex = 4;
             this.lblLevi.Text = "Levi Moreira da Silveira";
+            // 
+            // mstiProva1
+            // 
+            this.mstiProva1.Name = "mstiProva1";
+            this.mstiProva1.Size = new System.Drawing.Size(180, 22);
+            this.mstiProva1.Text = "Prova 1";
+            this.mstiProva1.Click += new System.EventHandler(this.mstiProva1_Click);
+            // 
+            // mstiProva2
+            // 
+            this.mstiProva2.Name = "mstiProva2";
+            this.mstiProva2.Size = new System.Drawing.Size(180, 22);
+            this.mstiProva2.Text = "Prova 2";
+            this.mstiProva2.Click += new System.EventHandler(this.mstiProva2_Click);
             // 
             // frmMenu
             // 
@@ -253,6 +271,8 @@
         private System.Windows.Forms.Label lblLevi;
         private System.Windows.Forms.ToolStripMenuItem msti3BimEx4;
         private System.Windows.Forms.ToolStripMenuItem msti3BimEx5;
+        private System.Windows.Forms.ToolStripMenuItem mstiProva1;
+        private System.Windows.Forms.ToolStripMenuItem mstiProva2;
     }
 }
 
