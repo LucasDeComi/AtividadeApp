@@ -95,6 +95,24 @@
     <Compile Include="3BimProva2.Designer.cs">
       <DependentUpon>3BimProva2.cs</DependentUpon>
     </Compile>
+    <Compile Include="4BimEx1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4BimEx1.Designer.cs">
+      <DependentUpon>4BimEx1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4BimEx2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4BimEx2.Designer.cs">
+      <DependentUpon>4BimEx2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4BimEx3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4BimEx3.Designer.cs">
+      <DependentUpon>4BimEx3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ex1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +183,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="3BimProva2.resx">
       <DependentUpon>3BimProva2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4BimEx1.resx">
+      <DependentUpon>4BimEx1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4BimEx2.resx">
+      <DependentUpon>4BimEx2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4BimEx3.resx">
+      <DependentUpon>4BimEx3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ex1.resx">
       <DependentUpon>Ex1.cs</DependentUpon>

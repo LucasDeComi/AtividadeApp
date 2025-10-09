@@ -119,5 +119,26 @@ namespace AtividadeApp
             Hide();
             prova2.Show();
         }
+
+        private void msti4BimEx1_Click(object sender, EventArgs e)
+        {
+            frm4BimEx1 ex1 = new frm4BimEx1();
+            Hide();
+            ex1.Show();
+        }
+
+        private void msti4BimEx2_Click(object sender, EventArgs e)
+        {
+            frm4BimEx2 ex2 = new frm4BimEx2();
+            Hide();
+            ex2.Show();
+        }
+
+        private void msti4BimEx3_Click(object sender, EventArgs e)
+        {
+            frm4BimEx3 ex3 = new frm4BimEx3();
+            Hide();
+            ex3.Show();
+        }
     }
 }
