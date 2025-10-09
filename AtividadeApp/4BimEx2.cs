@@ -16,5 +16,18 @@ namespace AtividadeApp
         {
             InitializeComponent();
         }
+
+        private void btnCalcularWhile_Click(object sender, EventArgs e)
+        {
+            int i = 10;
+            double f;
+            while(i <= 100)
+            {
+                f = (i * 1.8) + 32;
+                txtC.Text += i.ToString() + "\n";
+                txtF.Text += f.ToString() + "\n";
+                i += 10;
+            }
+        }
     }
 }
