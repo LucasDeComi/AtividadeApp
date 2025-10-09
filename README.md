@@ -6,3 +6,5 @@ O projeto cobre os 2o e 3o Bimestres do 1o Ano do Ensino Médio, com o objetivo 
 # Participantes
 ## 3o Bimestre
 Levi Moreira da Silveira
+## 4o Bimestre
+Maria Alice de Sillos
