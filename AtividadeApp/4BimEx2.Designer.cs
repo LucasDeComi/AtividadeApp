@@ -63,10 +63,10 @@
             // 
             this.txtC.Enabled = false;
             this.txtC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtC.Location = new System.Drawing.Point(185, 70);
+            this.txtC.Location = new System.Drawing.Point(188, 70);
             this.txtC.Multiline = true;
             this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(69, 293);
+            this.txtC.Size = new System.Drawing.Size(57, 293);
             this.txtC.TabIndex = 1;
             this.txtC.TabStop = false;
             // 
@@ -74,10 +74,10 @@
             // 
             this.txtF.Enabled = false;
             this.txtF.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtF.Location = new System.Drawing.Point(310, 70);
+            this.txtF.Location = new System.Drawing.Point(316, 70);
             this.txtF.Multiline = true;
             this.txtF.Name = "txtF";
-            this.txtF.Size = new System.Drawing.Size(69, 293);
+            this.txtF.Size = new System.Drawing.Size(60, 293);
             this.txtF.TabIndex = 12;
             // 
             // btnCalcularWhile
@@ -100,6 +100,7 @@
             this.btnCalcularDoWhile.TabIndex = 23;
             this.btnCalcularDoWhile.Text = "Calcular (do... while)";
             this.btnCalcularDoWhile.UseVisualStyleBackColor = true;
+            this.btnCalcularDoWhile.Click += new System.EventHandler(this.btnCalcularDoWhile_Click);
             // 
             // btnCalcularFor
             // 
@@ -110,6 +111,7 @@
             this.btnCalcularFor.TabIndex = 24;
             this.btnCalcularFor.Text = "Calcular (for)";
             this.btnCalcularFor.UseVisualStyleBackColor = true;
+            this.btnCalcularFor.Click += new System.EventHandler(this.btnCalcularFor_Click);
             // 
             // btnLimpar
             // 
@@ -120,6 +122,7 @@
             this.btnLimpar.TabIndex = 25;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnVoltar
             // 
