@@ -27,9 +27,7 @@ namespace AtividadeApp
                 while(i <= 10)
                 {
                     produto += num;
-                    tabuada += produto.ToString();
-                    if (i < 10)
-                        tabuada += ",";
+                    tabuada += num.ToString() + " X " + i.ToString() + " = " + produto.ToString() + Environment.NewLine;
                     i++;
                 }
                 txtTabuada.Text = tabuada;
@@ -52,9 +50,7 @@ namespace AtividadeApp
                 do
                 {
                     produto += num;
-                    tabuada += produto.ToString();
-                    if (i < 10)
-                        tabuada += ",";
+                    tabuada += num.ToString() + " X " + i.ToString() + " = " + produto.ToString() + Environment.NewLine;
                     i++;
                 } while(i <= 10);
                 txtTabuada.Text = tabuada;
@@ -74,12 +70,10 @@ namespace AtividadeApp
             num = Convert.ToInt32(txtNum.Text);
             if (num < 10 && num > 0)
             {
-                for(int i = 0; i < 10; i++)
+                for(int i = 1; i <= 10; i++)
                 {
                     produto += num;
-                    tabuada += produto.ToString();
-                    if (i < 10)
-                        tabuada += ",";
+                    tabuada += num.ToString() + " X " + i.ToString() + " = " + produto.ToString() + Environment.NewLine;
                 }
                 txtTabuada.Text = tabuada;
             }
