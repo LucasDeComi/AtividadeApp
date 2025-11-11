@@ -35,12 +35,15 @@
             this.txtB = new System.Windows.Forms.TextBox();
             this.lblB = new System.Windows.Forms.Label();
             this.lblA = new System.Windows.Forms.Label();
+            this.lblQtdeNecessaria = new System.Windows.Forms.Label();
+            this.txtQtde = new System.Windows.Forms.TextBox();
+            this.lblQtde = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(305, 389);
+            this.btnLimpar.Location = new System.Drawing.Point(306, 431);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(187, 49);
             this.btnLimpar.TabIndex = 13;
@@ -51,7 +54,7 @@
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(548, 389);
+            this.btnVoltar.Location = new System.Drawing.Point(549, 431);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(187, 49);
             this.btnVoltar.TabIndex = 12;
@@ -62,7 +65,7 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(65, 389);
+            this.btnCalcular.Location = new System.Drawing.Point(66, 431);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(187, 49);
             this.btnCalcular.TabIndex = 11;
@@ -78,6 +81,7 @@
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(171, 311);
             this.txtA.TabIndex = 10;
+            this.txtA.TextChanged += new System.EventHandler(this.txtA_TextChanged);
             // 
             // txtB
             // 
@@ -109,12 +113,45 @@
             this.lblA.TabIndex = 7;
             this.lblA.Text = "Matriz A";
             // 
+            // lblQtdeNecessaria
+            // 
+            this.lblQtdeNecessaria.AutoSize = true;
+            this.lblQtdeNecessaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQtdeNecessaria.Location = new System.Drawing.Point(519, 387);
+            this.lblQtdeNecessaria.Name = "lblQtdeNecessaria";
+            this.lblQtdeNecessaria.Size = new System.Drawing.Size(129, 16);
+            this.lblQtdeNecessaria.TabIndex = 16;
+            this.lblQtdeNecessaria.Text = "Qtde Necessária: 10";
+            // 
+            // txtQtde
+            // 
+            this.txtQtde.Enabled = false;
+            this.txtQtde.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQtde.Location = new System.Drawing.Point(426, 381);
+            this.txtQtde.Name = "txtQtde";
+            this.txtQtde.Size = new System.Drawing.Size(87, 34);
+            this.txtQtde.TabIndex = 15;
+            this.txtQtde.Text = "0";
+            // 
+            // lblQtde
+            // 
+            this.lblQtde.AutoSize = true;
+            this.lblQtde.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQtde.Location = new System.Drawing.Point(152, 387);
+            this.lblQtde.Name = "lblQtde";
+            this.lblQtde.Size = new System.Drawing.Size(253, 25);
+            this.lblQtde.TabIndex = 14;
+            this.lblQtde.Text = "Quantidade de Números:";
+            // 
             // frmVetorMatrizEx2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 492);
             this.ControlBox = false;
+            this.Controls.Add(this.lblQtdeNecessaria);
+            this.Controls.Add(this.txtQtde);
+            this.Controls.Add(this.lblQtde);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnCalcular);
@@ -139,5 +176,8 @@
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.Label lblB;
         private System.Windows.Forms.Label lblA;
+        private System.Windows.Forms.Label lblQtdeNecessaria;
+        private System.Windows.Forms.TextBox txtQtde;
+        private System.Windows.Forms.Label lblQtde;
     }
 }

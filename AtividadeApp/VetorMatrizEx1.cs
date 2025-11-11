@@ -52,5 +52,19 @@ namespace AtividadeApp
             Hide();
             menu.Show();
         }
+
+        private void txtA_TextChanged(object sender, EventArgs e)
+        {
+            string[] entrada = txtA.Lines;
+            int qtde = 0;
+            for (int i = 0; i < entrada.Length; i++)
+            {
+                if (double.TryParse(entrada[i], out double valor))
+                {
+                    qtde++;
+                }
+            }
+            txtQtde.Text = qtde.ToString();
+        }
     }
 }
