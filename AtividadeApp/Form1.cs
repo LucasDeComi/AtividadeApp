@@ -140,5 +140,26 @@ namespace AtividadeApp
             Hide();
             ex3.Show();
         }
+
+        private void mstiVetorMatrizEx1_Click(object sender, EventArgs e)
+        {
+            frmVetorMatrizEx1 ex1 = new frmVetorMatrizEx1();
+            Hide();
+            ex1.Show();
+        }
+
+        private void mstiVetorMatrizEx2_Click(object sender, EventArgs e)
+        {
+            frmVetorMatrizEx2 ex2 = new frmVetorMatrizEx2();
+            Hide();
+            ex2.Show();
+        }
+
+        private void mstiVetorMatrizEx3_Click(object sender, EventArgs e)
+        {
+            frmVetorMatrizEx3 ex3 = new frmVetorMatrizEx3();
+            Hide();
+            ex3.Show();
+        }
     }
 }

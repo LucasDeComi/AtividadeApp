@@ -195,7 +195,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm4BimEx3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Exercício 3";
+            this.Text = "Looping - Exercício 3";
             this.ResumeLayout(false);
             this.PerformLayout();
 

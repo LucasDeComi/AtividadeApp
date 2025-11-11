@@ -43,9 +43,10 @@
             // 
             this.lblCelsius.AutoSize = true;
             this.lblCelsius.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCelsius.Location = new System.Drawing.Point(198, 29);
+            this.lblCelsius.Location = new System.Drawing.Point(264, 36);
+            this.lblCelsius.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCelsius.Name = "lblCelsius";
-            this.lblCelsius.Size = new System.Drawing.Size(31, 24);
+            this.lblCelsius.Size = new System.Drawing.Size(40, 29);
             this.lblCelsius.TabIndex = 0;
             this.lblCelsius.Text = "°C";
             // 
@@ -53,9 +54,10 @@
             // 
             this.lblFahrenheit.AutoSize = true;
             this.lblFahrenheit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFahrenheit.Location = new System.Drawing.Point(328, 29);
+            this.lblFahrenheit.Location = new System.Drawing.Point(437, 36);
+            this.lblFahrenheit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFahrenheit.Name = "lblFahrenheit";
-            this.lblFahrenheit.Size = new System.Drawing.Size(30, 24);
+            this.lblFahrenheit.Size = new System.Drawing.Size(38, 29);
             this.lblFahrenheit.TabIndex = 1;
             this.lblFahrenheit.Text = "°F";
             // 
@@ -63,10 +65,11 @@
             // 
             this.txtC.Enabled = false;
             this.txtC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtC.Location = new System.Drawing.Point(188, 70);
+            this.txtC.Location = new System.Drawing.Point(251, 86);
+            this.txtC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtC.Multiline = true;
             this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(57, 293);
+            this.txtC.Size = new System.Drawing.Size(75, 360);
             this.txtC.TabIndex = 1;
             this.txtC.TabStop = false;
             // 
@@ -74,18 +77,20 @@
             // 
             this.txtF.Enabled = false;
             this.txtF.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtF.Location = new System.Drawing.Point(316, 70);
+            this.txtF.Location = new System.Drawing.Point(421, 86);
+            this.txtF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtF.Multiline = true;
             this.txtF.Name = "txtF";
-            this.txtF.Size = new System.Drawing.Size(60, 293);
+            this.txtF.Size = new System.Drawing.Size(79, 360);
             this.txtF.TabIndex = 12;
             // 
             // btnCalcularWhile
             // 
             this.btnCalcularWhile.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularWhile.Location = new System.Drawing.Point(478, 89);
+            this.btnCalcularWhile.Location = new System.Drawing.Point(637, 110);
+            this.btnCalcularWhile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCalcularWhile.Name = "btnCalcularWhile";
-            this.btnCalcularWhile.Size = new System.Drawing.Size(213, 40);
+            this.btnCalcularWhile.Size = new System.Drawing.Size(284, 49);
             this.btnCalcularWhile.TabIndex = 22;
             this.btnCalcularWhile.Text = "Calcular (while)";
             this.btnCalcularWhile.UseVisualStyleBackColor = true;
@@ -94,9 +99,10 @@
             // btnCalcularDoWhile
             // 
             this.btnCalcularDoWhile.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularDoWhile.Location = new System.Drawing.Point(478, 146);
+            this.btnCalcularDoWhile.Location = new System.Drawing.Point(637, 180);
+            this.btnCalcularDoWhile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCalcularDoWhile.Name = "btnCalcularDoWhile";
-            this.btnCalcularDoWhile.Size = new System.Drawing.Size(213, 40);
+            this.btnCalcularDoWhile.Size = new System.Drawing.Size(284, 49);
             this.btnCalcularDoWhile.TabIndex = 23;
             this.btnCalcularDoWhile.Text = "Calcular (do... while)";
             this.btnCalcularDoWhile.UseVisualStyleBackColor = true;
@@ -105,9 +111,10 @@
             // btnCalcularFor
             // 
             this.btnCalcularFor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularFor.Location = new System.Drawing.Point(478, 205);
+            this.btnCalcularFor.Location = new System.Drawing.Point(637, 252);
+            this.btnCalcularFor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCalcularFor.Name = "btnCalcularFor";
-            this.btnCalcularFor.Size = new System.Drawing.Size(213, 40);
+            this.btnCalcularFor.Size = new System.Drawing.Size(284, 49);
             this.btnCalcularFor.TabIndex = 24;
             this.btnCalcularFor.Text = "Calcular (for)";
             this.btnCalcularFor.UseVisualStyleBackColor = true;
@@ -116,9 +123,10 @@
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(478, 265);
+            this.btnLimpar.Location = new System.Drawing.Point(637, 326);
+            this.btnLimpar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(213, 40);
+            this.btnLimpar.Size = new System.Drawing.Size(284, 49);
             this.btnLimpar.TabIndex = 25;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
@@ -127,18 +135,19 @@
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(478, 323);
+            this.btnVoltar.Location = new System.Drawing.Point(637, 398);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(213, 40);
+            this.btnVoltar.Size = new System.Drawing.Size(284, 49);
             this.btnVoltar.TabIndex = 26;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
             // 
             // frm4BimEx2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.ControlBox = false;
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnLimpar);
@@ -149,9 +158,10 @@
             this.Controls.Add(this.txtC);
             this.Controls.Add(this.lblFahrenheit);
             this.Controls.Add(this.lblCelsius);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frm4BimEx2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Exercício 2";
+            this.Text = "Looping - Exercício 2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
