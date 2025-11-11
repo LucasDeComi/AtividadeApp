@@ -16,5 +16,47 @@ namespace AtividadeApp
         {
             InitializeComponent();
         }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            string[] entrada = txtA.Lines;
+            double[] A = new double[10];
+            double[] B = new double[10];
+            if (entrada.Length < 10)
+            {
+                MessageBox.Show("Por favor, insira 10 números.");
+                txtA.Focus();
+                return;
+            }
+            txtA.Clear();
+            txtB.Clear();
+            for (int i = 0; i < 10; i++)
+            {
+                A[i] = Convert.ToDouble(entrada[i]);
+                if(A[i] <= 0 )
+                {
+                    MessageBox.Show("Por favor, insira apenas números positivos.");
+                    txtA.Focus();
+                    return;
+                }
+                B[i] = A[i] * -1;
+                txtA.Text += A[i].ToString() + Environment.NewLine;
+                txtB.Text += B[i].ToString() + Environment.NewLine;
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtA.Clear();
+            txtB.Clear();
+            txtA.Focus();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenu menu = new frmMenu();
+            Hide();
+            menu.Show();
+        }
     }
 }
